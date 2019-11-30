@@ -56,4 +56,19 @@
             app:argType="string" />
     </fragment>
 
+    <fragment
+        android:id="@+id/catalog_fragment"
+        android:name="com.elifox.legocatalog.legotheme.ui.LegoThemeFragment"
+        android:label="@string/title_activity_catalog"
+        tools:layout="@layout/fragment_themes">
+
+        <action
+            android:id="@+id/action_theme_fragment_to_sets_fragment"
+            app:destination="@id/legosets_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
 </navigation>

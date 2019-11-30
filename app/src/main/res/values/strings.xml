@@ -9,6 +9,7 @@
     <string name="grid" translation_description="Common Filter">Switch between grid and list</string>
     <string name="legothemes_title">Browse Themes</string>
     <string name="legosets_title">Browse All Sets</string>
+    <string name="open_catalog">Open Catalog</string>
     <string name="legoset_details_title">Set details</string>
     <string name="navigation_drawer_header_content_description">Navigation drawer header logo</string>
     <string name="santa_claus_quote">Santa Claus will consider this request</string>
@@ -19,5 +20,6 @@
 
     <!-- Accessibility -->
     <string name="a11y_legoset_item_image">Picture of Lego Set</string>
+    <string name="title_activity_catalog">Catalog</string>
 
 </resources>
